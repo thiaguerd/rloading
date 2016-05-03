@@ -13,6 +13,11 @@ $( document ).ready(function() {
     install();
 });
 
+$(document).on('ready page:load', function(){
+    install();
+});
+
+
 function loff(){
     $("#blackout").addClass('ncolor');
     setTimeout(function(){
