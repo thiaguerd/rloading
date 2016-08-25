@@ -1,6 +1,6 @@
 # Rloading
 
-
+![demo](https://media.giphy.com/media/3oz8xEyHw8fJkfd90k/giphy.gif)
 
 ## Installation
 
