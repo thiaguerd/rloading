@@ -1,2 +1,5 @@
+v0.0.4
+  - rails 5 support
+  - change require rloading/rloading to just roloading
 v0.0.3
- - works with turbolinks
+  - works with turbolinks

@@ -1,19 +1,14 @@
-
 function install(){
-	/*
-<div id='blackout' class='ncolor'></div><div class='loading'><div class='ball ncolor'></div><div class='ball ncolor'></div><div class='ball ncolor'></div><div class='ball ncolor'></div><div class='ball ncolor'></div><div class='ball ncolor'></div><div class='ball ncolor'></div></div>
-	*/
 	if ($('#blackout').length==0){
 		$("body").prepend("<div id='blackout' class='ncolor'></div><div class='loading'><div class='ball ncolor'></div><div class='ball ncolor'></div><div class='ball ncolor'></div><div class='ball ncolor'></div><div class='ball ncolor'></div><div class='ball ncolor'></div><div class='ball ncolor'></div></div>");
 	}
 }
 
-
 $( document ).ready(function() {
     install();
 });
 
-$(document).on('ready page:load', function(){
+$(document).on('ready page:load turbolinks:load', function(){
     install();
 });
 
