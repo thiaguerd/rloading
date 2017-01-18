@@ -1,3 +1,5 @@
+v0.0.5
+  - time to show blackout update to 0
 v0.0.4
   - rails 5 support
   - change require rloading/rloading to just roloading

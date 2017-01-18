@@ -23,9 +23,9 @@ function loff(){
     
 }
 function lon(){
-    $("#blackout").show(10);
+    $("#blackout").show(0);
     $("#blackout").removeClass('ncolor')
-    $(".loading").show(10);
-    $(".ball").show(10);
+    $(".loading").show(0);
+    $(".ball").show(0);
     $(".ball").removeClass('ncolor')
 }
