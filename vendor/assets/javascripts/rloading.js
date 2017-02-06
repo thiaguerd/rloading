@@ -23,9 +23,13 @@ function loff(){
     
 }
 function lon(){
+    i = $.topZIndex()
+    $("#blackout").css('zIndex', i+1);
     $("#blackout").show(0);
     $("#blackout").removeClass('ncolor')
+    $(".loading").css('zIndex', i+2);
     $(".loading").show(0);
+    $(".ball").css('zIndex', i+3);
     $(".ball").show(0);
     $(".ball").removeClass('ncolor')
 }
